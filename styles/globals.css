@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*body{*/
+/*    font-family: 'Fira Code', monospace;*/
+/*    font-family: 'JetBrains Mono', monospace;*/
+/*    font-family: 'Source Code Pro', monospace;*/
+/*}*/
+@layer components{
+    .btn{
+        @apply px-3 py-2 rounded shadow-sm hover:shadow-lg
+    }
+}
